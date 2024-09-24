@@ -28,7 +28,6 @@ body{
 }
 
 .header{
-    
     height: 5vh;
     background-color: #3498db;
     border: 2px solid #333;
@@ -77,14 +76,18 @@ body{
 }
 
 .switch-btn {
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 10px 20px;
     background-color: #333;
     color: white;
     text-decoration: none;
     border-radius: 50px;
     width: 200px;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.3s ease;
 }
+
   
 .switch-btn:hover {
     background-color: #555;
